@@ -1,0 +1,119 @@
+[
+  {
+    "id": "a9f4f619-d063-49a2-89c6-41f6a734602a",
+    "data": [
+      {
+        "text": "order pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9c3777d-081e-4caf-97da-5f339fa41ff8",
+    "data": [
+      {
+        "text": "i want pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "92c0307b-7787-426e-a17b-43fa32aafa32",
+    "data": [
+      {
+        "text": "i want to order pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "638ade08-76d7-4d73-a4d4-81d4d78ac3e6",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9703b0a-cde8-454e-9ce1-008321f71dc4",
+    "data": [
+      {
+        "text": "pizzahelp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ef498b4-438a-41b2-8ec0-cfdf848d513b",
+    "data": [
+      {
+        "text": "pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fded6f4-e705-4530-9eec-b4fe06473140",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e7a7453-b0ef-425b-ba3e-57d9db4bc2f4",
+    "data": [
+      {
+        "text": "hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ee6bf8a-4222-41f1-85bc-e00c82427b78",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "value": "cheese",
+    "synonyms": [
+      "cheese",
+      "extra cheese"
+    ]
+  },
+  {
+    "value": "chicken",
+    "synonyms": [
+      "chicken"
+    ]
+  }
+]

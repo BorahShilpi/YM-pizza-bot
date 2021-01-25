@@ -1,0 +1,27 @@
+[
+  {
+    "value": "hand-tossed",
+    "synonyms": [
+      "hand-tossed",
+      "hand tossed",
+      "Hand Tossed",
+      "Hand-tossed",
+      "Hand-Tossed"
+    ]
+  },
+  {
+    "value": "thin",
+    "synonyms": [
+      "thin",
+      "Thin",
+      "thin crust"
+    ]
+  },
+  {
+    "value": "regular",
+    "synonyms": [
+      "regular",
+      "Regular"
+    ]
+  }
+]

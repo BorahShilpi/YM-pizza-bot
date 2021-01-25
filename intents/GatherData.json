@@ -1,0 +1,210 @@
+{
+  "id": "c8785f80-a2b3-4064-a506-6ae2932cffba",
+  "parentId": "cb21253f-efe3-45d0-a675-91e9a09b5770",
+  "rootParentId": "cb21253f-efe3-45d0-a675-91e9a09b5770",
+  "name": "GatherData",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5b034600-72f0-4f0b-8487-4a32e4dbf960",
+          "name": "size",
+          "required": true,
+          "dataType": "@size",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size do you want your pizza to be? Large, Medium or Small?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you want large, medium or small pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1c249e1d-fae9-4b17-b886-3e6d83cb5326",
+          "name": "crust",
+          "required": true,
+          "dataType": "@crust",
+          "value": "$crust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What crust do you like? Hand-Tossed, Thin or Regular?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7ad1d512-c9d2-4e8b-8649-b4e39782bff9",
+          "name": "topping",
+          "required": true,
+          "dataType": "@topping",
+          "value": "$topping",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What toppings do you like in your pizza? Chicken, Bacon, Sausage, Mushrooms, Pepperoni, Paneer or Corn?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3b7c5ab9-d0fd-4ea9-bc6b-ccc6214554e1",
+          "name": "addon",
+          "required": true,
+          "dataType": "@addon",
+          "value": "$addon",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Would you like to have some extra cheese or chicken?"
+            },
+            {
+              "lang": "en",
+              "value": "How about some extra cheese or chicken?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bf25666d-4298-4ba5-bc0e-ec401feb4a67",
+          "name": "extra",
+          "required": true,
+          "dataType": "@extra",
+          "value": "$extra",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How about a coke or pepsi to go with the pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "Would you like to add a coke or pepsi?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "02d54ce4-458b-4a54-9a78-a4d649ac48b9",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Awesome! We are just a few steps away from placing your order. May I have your name please?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b15576ce-93f9-4bab-99b7-ab40f7f90c47",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.location",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where should we deliver your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s your address?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ecbe9597-83b7-4a68-9c3b-8c556a304026",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have your contact number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks for ordering YoYo Pizza. We will have your $crust $size $topping pizza with extra $addon \u0026 $extra delivered to you within 15-30minutes. Have a fantastic day !",
+            "Your order will be delivered to you shortly. Thanks for ordering with YoYo pizza !"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

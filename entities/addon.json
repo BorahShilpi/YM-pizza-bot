@@ -1,0 +1,9 @@
+{
+  "id": "a078083d-dcca-4e53-8e6c-23177e374dff",
+  "name": "addon",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

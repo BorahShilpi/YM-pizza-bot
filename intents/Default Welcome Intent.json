@@ -1,0 +1,46 @@
+{
+  "id": "cb21253f-efe3-45d0-a675-91e9a09b5770",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to Yo Yo Pizza ! I\u0027m Miss Jean, your Pizza Expert. Say \u0027yes\u0027 to the Pizza!",
+            "Mouth-Watering Pizza on your way. I\u0027m Miss Jean, the Pizza expert. Enter \u0027yes\u0027 to start your amazing Pizza journey !",
+            "Can\u0027t wait in hunger? I\u0027m Miss jean, your tour guide. say \u0027Yes\u0027 \u0026 I shall take you through the Pizza land !"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

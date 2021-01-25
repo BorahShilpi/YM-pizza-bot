@@ -1,0 +1,51 @@
+[
+  {
+    "value": "chicken",
+    "synonyms": [
+      "chicken"
+    ]
+  },
+  {
+    "value": "bacon",
+    "synonyms": [
+      "bacon",
+      "Bacon"
+    ]
+  },
+  {
+    "value": "mushrooms",
+    "synonyms": [
+      "mushrooms",
+      "mushroom",
+      "Mushrooms",
+      "Mushroom"
+    ]
+  },
+  {
+    "value": "pepperoni",
+    "synonyms": [
+      "pepperoni",
+      "Pepperoni"
+    ]
+  },
+  {
+    "value": "paneer",
+    "synonyms": [
+      "paneer",
+      "Paneer"
+    ]
+  },
+  {
+    "value": "corn",
+    "synonyms": [
+      "corn",
+      "Corn"
+    ]
+  },
+  {
+    "value": "sausage",
+    "synonyms": [
+      "sausage"
+    ]
+  }
+]
